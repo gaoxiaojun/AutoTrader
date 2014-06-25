@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TradeClass">
+      <UniqueIdentifier>{13cf7daf-a954-4d07-b2a9-a423b7f7c20c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SQLClass">
+      <UniqueIdentifier>{7b383589-b81f-4759-9344-81fcafa00f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShowDlgClass">
+      <UniqueIdentifier>{5bd6ad42-4e90-4263-893a-66533d0029b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StrategyClass">
+      <UniqueIdentifier>{866f7e0b-9add-4a97-a0f1-78b876362684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainDlgClass">
+      <UniqueIdentifier>{faeb8405-7551-47aa-9ad3-4b8c7d837362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5分钟单元">
+      <UniqueIdentifier>{c7049499-fd8b-42dd-bf7b-b02ee52b9c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主App">
+      <UniqueIdentifier>{8c99dfa3-4364-4b15-8d66-c291969511a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="其他">
+      <UniqueIdentifier>{e57c3991-9538-4e34-b8a1-cab03bae2e3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="运行策略数据">
+      <UniqueIdentifier>{ed5e555e-12cf-4bc5-919a-97d272e92258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="注册表类">
+      <UniqueIdentifier>{bc03e225-153e-44d5-9035-3b682d139b1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="外部引用库">
+      <UniqueIdentifier>{7b9ccd69-dab0-4bca-95ce-cff916bead44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="公用头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Trader.h">
+      <Filter>TradeClass</Filter>
+    </ClInclude>
+    <ClInclude Include="VspdcToMySQL.h">
+      <Filter>SQLClass</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowInfo.h">
+      <Filter>ShowDlgClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy.h">
+      <Filter>StrategyClass</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoTraderDlg.h">
+      <Filter>MainDlgClass</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoInfo.h">
+      <Filter>公用头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MinuteData.h">
+      <Filter>5分钟单元</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoTrader.h">
+      <Filter>主App</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>其他</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>其他</Filter>
+    </ClInclude>
+    <ClInclude Include="RunningData.h">
+      <Filter>运行策略数据</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>其他</Filter>
+    </ClInclude>
+    <ClInclude Include="RegeditIO.h">
+      <Filter>注册表类</Filter>
+    </ClInclude>
+    <ClInclude Include="RunningData5.h">
+      <Filter>运行策略数据</Filter>
+    </ClInclude>
+    <ClInclude Include="RunningData15.h">
+      <Filter>公用头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Trader.cpp">
+      <Filter>TradeClass</Filter>
+    </ClCompile>
+    <ClCompile Include="VspdcToMySQL.cpp">
+      <Filter>SQLClass</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowInfo.cpp">
+      <Filter>ShowDlgClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy.cpp">
+      <Filter>StrategyClass</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoTraderDlg.cpp">
+      <Filter>MainDlgClass</Filter>
+    </ClCompile>
+    <ClCompile Include="MinuteData.cpp">
+      <Filter>5分钟单元</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoTrader.cpp">
+      <Filter>主App</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>其他</Filter>
+    </ClCompile>
+    <ClCompile Include="RunningData.cpp">
+      <Filter>运行策略数据</Filter>
+    </ClCompile>
+    <ClCompile Include="RegeditIO.cpp">
+      <Filter>注册表类</Filter>
+    </ClCompile>
+    <ClCompile Include="RunningData5.cpp">
+      <Filter>运行策略数据</Filter>
+    </ClCompile>
+    <ClCompile Include="RunningData15.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AutoTrader.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\AutoTrader.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\AutoTrader.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libmysql.lib">
+      <Filter>外部引用库</Filter>
+    </Library>
+    <Library Include="D:\WpdPack\Lib\Packet.lib">
+      <Filter>外部引用库</Filter>
+    </Library>
+    <Library Include="D:\WpdPack\Lib\wpcap.lib">
+      <Filter>外部引用库</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>其他</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

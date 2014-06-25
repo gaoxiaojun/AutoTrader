@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProtectProgress", "ProtectProgress\ProtectProgress.vcxproj", "{8D3D0FB6-709B-497B-AF18-A160402BEB9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D3D0FB6-709B-497B-AF18-A160402BEB9A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8D3D0FB6-709B-497B-AF18-A160402BEB9A}.Debug|Win32.Build.0 = Debug|Win32
+		{8D3D0FB6-709B-497B-AF18-A160402BEB9A}.Release|Win32.ActiveCfg = Release|Win32
+		{8D3D0FB6-709B-497B-AF18-A160402BEB9A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
